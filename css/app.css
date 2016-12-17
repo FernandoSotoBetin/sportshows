@@ -1,0 +1,203 @@
+body {
+    background-color: black;
+}
+
+h1, h2, h3, h4, h5, h6, button, input[type="submit"] {
+    font-family: 'Bree Serif', serif;
+}
+
+#social-container {
+    background-color: #426277;
+}
+
+#logo-container .callout {
+    background-color: #EACD4B;
+    color: #E0263B;
+    margin-bottom: 0;
+}
+
+#menu-container {
+    background-color: #163EBF;
+}
+
+#menu-container li a {
+    color: white;
+    font-family: 'Bree Serif', serif;
+}
+
+#submenu-container {
+    border: 0;
+}
+#menu-container li a:hover,
+#submenu-container li a:hover {
+    color: #f6e15f;
+}
+
+#submenu-container {
+    background-color: #EACD4B;
+    color: white;
+}
+
+#tickets-action .callout {
+    background-color: #E0263B;
+    color: white;
+    margin-bottom: 0;
+}
+
+#tickets-action .callout button {
+    color: white;
+    border: 1px solid white;
+}
+
+#lineup-container {
+  padding: 1em 0;
+}
+
+#lineup-container h3 {
+  color: #163EBF;
+}
+
+#lineup-container,
+#lineup-container .tabs-panel,
+#lineup-container .tabs,
+#lineup-container .tabs .tabs-title,
+#lineup-container .tabs .tabs-title.is-active a {
+  background-color: #7CA2C9;
+  color: white;
+  border: 0;
+  text-transform: uppercase;
+  font-family: 'Bree Serif', serif;
+}
+
+.tabs-content {
+  border: 0;
+}
+
+#lineup-container .tabs .tabs-title a {
+  font-size: 18px;
+  color: #E0263B;
+}
+
+#lineup-container .tabs .tabs-title a:hover {
+  color: white;
+  background-color: #163EBF;
+}
+
+.tabs-title {
+  display: inline-block;
+  float: none;
+}
+
+.tabs-content img {
+  height: 300px;
+}
+
+#lineup-container .orbit-container {
+  margin-bottom: 1em;
+}
+
+#lineup-container .column:nth-child(odd) figcaption {
+  text-align: right;
+}
+
+#tickets-container {
+  padding: 1em 0;
+  background-color: #EACD4B;
+  color: #161742;
+}
+
+.pricing-table {
+  border: 1px solid #161742;
+  font-family: 'Ravi Prakash', cursive;
+}
+
+.pricing-table li,
+.pricing-table li.description {
+  font-size: 20px;
+}
+
+.pricing-table li.price,
+.pricing-table li.title {
+  font-size: 30px;
+}
+
+.pricing-table a.button {
+    font-family: 'Bree Serif', serif;
+}
+
+#info-container {
+  background-color: #161742;
+  color: white;
+  padding: 1em 0;
+}
+
+#info-container .info-map iframe {
+  width: 100%;
+}
+
+#suscribete-container {
+  background-color: #ee3f54;
+  color: white;
+  padding: 1em 0;
+}
+
+#suscribete-container h4 small {
+  color: #ffcddc;
+}
+
+#suscribete-container .error-container {
+  font-family: 'Bree Serif', serif;
+}
+
+.is-invalid-input:not(:focus) {
+  background-color: rgb(255, 228, 228);
+  border-color: rgb(255, 228, 228);
+}
+
+.data-sticky {
+  width: 100%;
+  z-index: 100;
+}
+
+#offCanvas,
+#offCanvas li a {
+  background-color: black;
+  color: white;
+  font-family: font-family: 'Bree Serif', serif;
+}
+
+#offCanvas .is-drilldown-submenu-parent > a::after {
+    border-color: transparent transparent transparent white;
+}
+
+#offCanvas .js-drilldown-back > a::before {
+    border-color: transparent white transparent transparent;
+}
+
+/*.pro {
+  border: 1px red solid;
+}
+
+.pro > div {
+  border: 1px blue solid;
+}*/
+
+
+
+@media (min-width: 640px) {
+  
+  .input-group {
+    padding-right: 0;
+    margin-bottom: 0;
+  }
+  
+  .input-group-button {
+    padding-left: 0;
+    text-align: left;
+  }
+  
+  .input-group-button input {
+    padding: 0.7em .5em
+  }
+  
+}
